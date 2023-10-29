@@ -1,0 +1,221 @@
+
+
+/*  for smaller screens (smartphones) */
+@media (max-width: 768px) {
+    /* Styles for smaller screens responsiveness */
+}
+
+/*for medium-sized screens (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium-sized screens */
+}
+
+/* Responsiveness for larger screens (desktops) */
+@media (min-width: 1025px) {
+}
+
+/* Sticky Header Styles */
+.sticky-header {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.header-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-right ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-right ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-right ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Projects Section Styles */
+.projects-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.project-description {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.project-image {
+    flex: 1;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.projects-section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    display: ;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.project-description {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.project-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-description p {
+    font-size: 18px;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Design and Software Section */
+.design-software-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: F6F4EB(112, 71, 71);
+}
+
+.left-content,
+.right-content {
+    flex: 1;
+    margin: 0 20px;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #89CFF3;
+    align-items: center; 
+}
+
+.right-content {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.right-content p {
+    margin-left: 10px;
+
+}
+
+/* Contact Section Styles */
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #91C8E4;
+    align-items: center; 
+}
+
+.right-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.right-content p {
+    margin-left: 10px; 
+}
+
+.right-content p:first-child {
+    background-color: white; 
+    color: #126bcfc9
+    padding: 10px 15px; 
+    border-radius: 10px; 
+}
+
+/* Styles for "Call me" */
+.right-content p:last-child {
+    background-color: #241b79; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 10px;
+}
+
+
+/* Prompt Section Styles */
+.prompt-section {
+    background-color: #4682A9;
+    text-align: center;
+    padding: 40px;
+    color: aliceblue;
+}
+
+.social-icons img {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4682A9;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

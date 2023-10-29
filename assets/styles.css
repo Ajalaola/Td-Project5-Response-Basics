@@ -1,0 +1,160 @@
+
+
+/*  for smaller screens (smartphones) */
+@media (max-width: 768px) {
+    /* Styles for smaller screens responsiveness */
+}
+
+/*for medium-sized screens (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium-sized screens */
+}
+
+/* Responsiveness for larger screens (desktops) */
+@media (min-width: 1025px) {
+}
+
+/* General styling */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7752FE;
+    color: #fff;
+}
+
+.left-side h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.right-side ul {
+    list-style: none;
+    display: flex;
+}
+
+.right-side li {
+    margin-right: 20px;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.right-side a:hover {
+    color: #ffcc00;
+}
+
+/* About Me Section Styling */
+.about-me-section {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    color: blue;
+}
+
+.about-me-content img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Contact Section Styling */
+.contact-section {
+    background-color: #3876BF;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-content p, .right-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.right-content p {
+    margin-top: 20px;
+}
+
+/* Services Section Styling */
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.services-description-text {
+    color: blue;
+}
+
+.service-box {
+    flex: 1;
+    min-width: 30px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #090c0a;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: white;
+}
+
+.service-icon span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Contact Footer Styling */
+.contact-footer {
+    background-color: #3876BF;
+    color: #3876BF;
+    text-align: center;
+    padding: 40px 0;
+
+.contact-footer-content {
+    max-width: 1500px;
+    margin: 0cqmax;
+}
+.contact-footer-content p {
+    color: #f9f9f9;
+}
+
+
+/* Add space between email link and social icons */
+.contact-footer-content a {
+    color: #f9f9f9;
+    margin: 1%;
+}
+
+.social-icons img {
+    width: 10px;
+    margin: 0 10px;
+}
+
+.contact-footer-content p:last-child {
+    margin-top: 10px;
+    font-size: 14px;
+}
